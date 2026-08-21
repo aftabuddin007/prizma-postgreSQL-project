@@ -50,7 +50,7 @@ const Navbar = () => {
  </SignedIn> */}
 
  {/* mobile device */}
- <Button size={"icon"} variant={"ghost"} onClick={()=> setMenuOpen(!menuOpen)} className="md:hidden focus:outline ">
+ <Button size={"icon"} variant={"ghost"} onClick={()=> setMenuOpen(!menuOpen)} className="md:hidden focus:outline px-3">
 {menuOpen ?<X className='h-5 w-5'></X>: <Menu className='h-5 w-5'></Menu>}
  </Button>
 {menuOpen && (
