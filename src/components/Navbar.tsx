@@ -59,6 +59,7 @@ const Navbar = () => {
       <Link href="/" className="text-sm font-medium">Home</Link>
       <Link href="/menu" className="text-sm font-medium">Menu</Link>
       <Link href="/about" className="text-sm font-medium">About</Link>
+      <Link href="/contact" className="text-sm font-medium">Contact</Link>
       <Link href="/admin" className="text-sm font-medium">Admin</Link>
       
     <Search></Search>
